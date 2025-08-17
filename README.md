@@ -1,4 +1,4 @@
-# Delta Lake Optimization Techniques: A Hands‑On Learning Project
+# 6 Delta Lake Optimization Techniques: A Hands‑On Learning Project
 
 > Independent educational resource; not endorsed by Databricks, Inc. "Databricks" and "Delta Lake" are trademarks of their respective owners.
 
@@ -57,10 +57,22 @@ A single helper registry centralizes fully qualified names for reproducibility.
 
 ## 6. Getting Started
 
-1. Clone or import this repo into your Databricks workspace.
-2. Open `project.ipynb`.
-3. Attach a cluster (Photon runtime recommended if available, but not required).
-4. Execute cells sequentially. The notebook is idempotent—data generation skips if the base table already exists.
+1. **Create a Databricks Account**
+
+   - Sign up for a [Databricks Free Edition account](https://www.databricks.com/learn/free-edition) if you don’t already have one.
+   - Familiarize yourself with the workspace, clusters, and notebook interface.
+
+2. **Import this repository to Databricks**
+
+   - In Databricks, go to the Workspace sidebar and click the "Repos" section, click "Add Repo".
+     - Alternatively, go to your personal folder, click "create" and select "git folder".
+   - Paste the GitHub URL for this repository.
+   - Authenticate with GitHub if prompted, and select the main branch.
+   - The repo will appear as a folder in your workspace, allowing you to edit, run notebooks, and manage files directly from Databricks.
+   - For more details, see the official Databricks documentation: [Repos in Databricks](https://docs.databricks.com/repos/index.html).
+
+3. Open `project.ipynb`.
+4. Execute cells sequentially - pick the serverless cluster. The notebook is idempotent—data generation skips if the base table already exists.
 5. After each optimization action, open the Spark UI (SQL / DataFrame tab) and record metrics.
 
 ## 7. Metrics Logging (DIY Quick Table)
