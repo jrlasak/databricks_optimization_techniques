@@ -19,7 +19,7 @@ You will generate a synthetic 5M‑row sales dataset, capture baseline query met
 
 All instructions and code live in the notebook: **[`project.ipynb`](project.ipynb)**. Open it first; proceed cell by cell.
 
-🔧 **New Features**: This project now includes automated metrics collection, advanced extensions, and comprehensive benchmarking tools. See **[`ARCHITECTURE.md`](ARCHITECTURE.md)** for visual overview.
+🔧 **New Features**: This project now includes automated metrics collection, advanced extensions, and comprehensive benchmarking tools. See **[`ARCHITECTURE.md`](ARCHITECTURE.md)** for visual overview and **[`QUICKSTART.md`](QUICKSTART.md)** for rapid setup.
 
 ## 2. Learning Objectives
 
@@ -76,6 +76,22 @@ A single helper registry centralizes fully qualified names for reproducibility.
 3. Open `project.ipynb`.
 4. Execute cells sequentially - pick the serverless cluster. The notebook is idempotent—data generation skips if the base table already exists.
 5. After each optimization action, open the Spark UI (SQL / DataFrame tab) and record metrics.
+
+### 📚 Project Structure
+```
+databricks_optimization_techniques/
+├── 📋 README.md                              # Complete project documentation  
+├── 🚀 QUICKSTART.md                          # Rapid setup guide
+├── 🏗️  ARCHITECTURE.md                       # Visual system overview
+├── 📓 project.ipynb                          # Main learning notebook
+├── ✅ validation_and_testing.ipynb           # Environment validation
+├── 📊 metrics_collection.ipynb               # Automated metrics tracking
+├── 📈 partitioning_comparison_extension.ipynb # Advanced partitioning analysis
+├── ⚙️ requirements.txt                        # Python dependencies
+├── 🛠️ setup.sh                               # Environment setup script
+└── 📁 .github/                               # Repository configuration
+    └── CODEOWNERS                            # Maintainer information
+```
 
 ## 7. Metrics Logging (DIY Quick Table)
 
