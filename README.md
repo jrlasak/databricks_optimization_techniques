@@ -19,6 +19,8 @@ You will generate a synthetic 5M‑row sales dataset, capture baseline query met
 
 All instructions and code live in the notebook: **[`project.ipynb`](project.ipynb)**. Open it first; proceed cell by cell.
 
+🔧 **New Features**: This project now includes automated metrics collection, advanced extensions, and comprehensive benchmarking tools. See **[`ARCHITECTURE.md`](ARCHITECTURE.md)** for visual overview.
+
 ## 2. Learning Objectives
 
 By completing the lab you will be able to:
@@ -124,13 +126,27 @@ Tip: In Spark UI, click the scan node to see data read & file count; copy into t
 
 ## 11. Extending the Lab
 
-Try adding:
+### 🎯 Ready-to-Use Extensions
 
-1. Date-based partition layer vs country: compare scan metrics.
-2. Programmatic metrics capture notebook that stores results into a Delta table for plotting trends.
+We've implemented concrete examples of the extensions below:
+
+1. **📊 Automated Metrics Collection** - [`metrics_collection.ipynb`](metrics_collection.ipynb)
+   - Programmatic metrics capture and storage in Delta tables
+   - Automated visualization of performance trends over time
+   - Integration patterns with the main project
+
+2. **📈 Date-based vs Country Partitioning Comparison** - [`partitioning_comparison_extension.ipynb`](partitioning_comparison_extension.ipynb)
+   - Complete benchmark framework comparing multiple partitioning strategies
+   - Automated query testing across different access patterns
+   - Data-driven insights and recommendations
+
+### 🔧 Additional Extensions to Try
+
 3. Incremental data growth simulation + periodic Z-Order refresh policy.
 4. Photon vs non-Photon runtime comparison (CPU cost vs performance).
 5. Streaming ingestion (Auto Loader) to stress clustering adaptiveness.
+6. Multi-dimensional Z-Ordering comparison (different column combinations).
+7. Liquid Clustering vs Z-Ordering performance analysis.
 
 ## 12. Feedback Wanted
 
