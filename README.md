@@ -2,7 +2,12 @@
 
 > Independent educational resource; not endorsed by Databricks, Inc. "Databricks" and "Delta Lake" are trademarks of their respective owners.
 
-Follow me on [LinkedIn](https://www.linkedin.com/in/jrlasak/) for more Databricks projects and tips. Extra material: [dataengineer.wiki](https://dataengineer.wiki)
+## Connect with me:
+
+- 🔗 [LinkedIn](https://www.linkedin.com/in/jrlasak/) - Databricks projects and tips
+- 📬 [Substack Newsletter](https://dataengineer.wiki/substack) - Exclusive content for Data Engineers
+- 🌐 [DataEngineer.wiki](http://dataengineer.wiki/) - Training materials and resources
+- 🚀 [More Practice Labs](https://dataengineer.wiki/projects) - Delta Live Tables, table optimization, and more
 
 ## 1. Purpose & Overview
 
