@@ -2,7 +2,11 @@
 
 > Independent educational resource; not endorsed by Databricks, Inc. "Databricks" and "Delta Lake" are trademarks of their respective owners.
 
-## Connect with me:
+## Author
+
+<img src="https://dataengineer.wiki/download/profilepicture.jpg" alt="Jakub Lasak" width="80" style="border-radius: 50%;" />
+
+**Jakub Lasak** — Helping you interview like seniors, execute like seniors, and think like seniors.
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/jrlasak/) - Databricks projects and tips
 - 📬 [Substack Newsletter](https://dataengineer.wiki/substack) - Exclusive content for Data Engineers
@@ -60,15 +64,13 @@ A single helper registry centralizes fully qualified names for reproducibility.
 - Comfort reading Spark UI (scan details, tasks, input size)
 - Python (for minor helper code)
 
-## 6. Getting Started
+## 6. How to Start
 
 1. **Create a Databricks Account**
-
-   - Sign up for a [Databricks Free Edition account](https://www.databricks.com/learn/free-edition) if you don’t already have one.
+   - Sign up for a [Databricks Free Edition account](https://www.databricks.com/learn/free-edition) if you don't already have one.
    - Familiarize yourself with the workspace, clusters, and notebook interface.
 
 2. **Import this repository to Databricks**
-
    - In Databricks, go to the Workspace sidebar and click the "Repos" section, click "Add Repo".
      - Alternatively, go to your personal folder, click "create" and select "git folder".
    - Paste the GitHub URL for this repository.
@@ -76,7 +78,7 @@ A single helper registry centralizes fully qualified names for reproducibility.
    - The repo will appear as a folder in your workspace, allowing you to edit, run notebooks, and manage files directly from Databricks.
    - For more details, see the official Databricks documentation: [Repos in Databricks](https://docs.databricks.com/repos/index.html).
 
-3. Open `project.ipynb`.
+3. Open `project.ipynb`
 4. Execute cells sequentially - pick the serverless cluster. The notebook is idempotent - data generation skips if the base table already exists.
 5. After each optimization action, open the Spark UI (SQL / DataFrame tab) and record metrics.
 
